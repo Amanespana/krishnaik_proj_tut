@@ -1,0 +1,1 @@
+# from this trainline pipeline, I will trigger all the components such as data_ingestion.py, data_transform.py , model_trainer.py
