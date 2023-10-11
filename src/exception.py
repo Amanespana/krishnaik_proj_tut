@@ -1,6 +1,7 @@
 # for exception handling purposes
 
 import sys
+from src.logger import logging
 
 def error_message_detail(error, error_detail:sys):
     _, _, exc_tb = error_detail.exc_info()  # error_detail.exc_info() will return three values. We are just interested in the last one for now
